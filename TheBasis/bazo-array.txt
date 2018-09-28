@@ -1,0 +1,42 @@
+
+Program TuComissao_Array;
+
+{Uma array nda mais eh do q uma lista de Value_Types, que, por definição, 
+devem ser todos os seus valores do MESMO TIPO.} 
+
+//Declarations
+
+var func1:string='Jhon';
+var func2:string='Donavan';
+var func3:string='Karen';
+var func4:string='Dany';
+
+var funcs:array[0..2] of string;
+
+//Tb se as pode inicializar em Direto=>
+var tukonsumo:array[0..1] of integer=(3.5, 4.2);
+
+//Inicializations
+  
+	Begin
+  
+	funcs[0]:='Roby';
+	funcs[1]:='Mary';
+	funcs[2]:='Davi';
+	funcs[3]:='Nilton';
+
+ 	Writeln('');
+	Writeln('Eis a segunda string-> ', func2);
+	Writeln('');
+	Writeln('Eis o terceiro_valor_array-> ', funcs[2]);
+
+	End.
+
+{A fim de se "ler" para a Array, ou, "escrever" os valores, podemos utilizar 
+de um ForLoop simples. Ex. }
+
+	for i:=0 to 3 Do
+		Read(funcs[i]);
+		Writeln(funcs[i]);
+
+----

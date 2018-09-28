@@ -1,0 +1,24 @@
+Conversão Farenheit_Celsius:
+
+Escala Celsius= 0 a 100graus. {intervalo=100}
+Escala Farenheit=32 a 212graus.{intervalo=180}
+
+Como a proporção do intervalo eh de 180/100, 
+temos uma 'taxa'de conversão igual a 1,8.
+
+*ENTAO=>
+(de farenheit para celsius):
+1. subtrai-se 32;
+2. dividi-se por 1,8 .
+
+---------
+
+(de Celsius para Farenheit):
+Basta fazer o processo INVERSO. 
+F=(c*1,8)+32
+
+1.multiplica por 1,8 ;
+2.soma com 32 .
+
+
+

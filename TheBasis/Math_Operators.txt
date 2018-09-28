@@ -1,0 +1,22 @@
+Pascal_Language:
+
+Main Math_Operators:
+
+-	= subtraction.
++	= addition.
+*	= multiplication.
+/	= decimal division.
+div	= integer division.
+mod	= gives the reminder. 
+sqr	= exponent.
+sqrt	= the square_root.
+
+Main Relational Operators:
+
+<	= less_than.
+>	= bigger_than. 
+= 	= equal to.
+<>	= notEqual to.
+<=	= minor or equal to.
+>=	= bigger or equal to.
+

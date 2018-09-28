@@ -1,0 +1,32 @@
+Program Tu_Comissao;
+
+//Declaracoes
+
+CONST percent=0,05;
+	  v_unit=39.00;
+
+{comissao -> seria a qtidade vendida x o valor_unit x percent}
+
+VAR vendedor:string;
+	codpeca, qtidade:integer;
+	total_venda, comissao:real;
+	
+//Inicializacao
+
+Begin
+
+	Write('Informe o codigo do vendedor: ');
+	Readln(vendedor);
+	Write('Informe o codigo da peca: ');
+	Readln(codpeca);
+	Write('Digite a quantidade vendida: ');
+	Readln(qtidade);
+	
+	total_venda:=v_unit*qtidade;
+	comissao:=total_venda*percent;
+	
+	Writeln('O seu funcionario,' , vendedor , 'ira receber');
+	Writeln('o valor de R$,' comissao, 'como comissao, ');
+	Writeln('pela venda de ,' qtidade , 'pecas do codigo:' ,codpeca);
+	
+End.

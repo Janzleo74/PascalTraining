@@ -1,0 +1,24 @@
+Pascal_Language:
+
+Main VAR_Types:
+(principais Tipos de Variaveis)
+
+There are, basically, seven main DATA-TYPES in Pascal (with three main 
+extra typifications):
+
+VAR =>
+:integer
+:real
+:boolean
+:char
+:string
+:array 
+:record 
+:set
+
+EXTRAS (used via 'preapend') =>
+$ff		= hexadecimal [255]
+&17 		= octal [15]
+%1111111	= binary [255]
+
+
